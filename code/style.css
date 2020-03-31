@@ -1,0 +1,88 @@
+table {
+  border-collapse: collapse;
+  border: 3px solid #5d4766;
+  min-width: 310px;
+}
+
+table thead tr td {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.dayOff {
+  color: red;
+}
+
+table tr td {
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: 1px solid #5d4766;
+}
+
+tr td.today {
+  border: 3px solid red;
+}
+
+.countEvents {
+  display: block;
+  font-size: 15px;
+}
+
+.operation {
+  display: flex;
+  justify-content: space-between;
+  max-width: 309px;
+  margin-bottom: 5px;
+}
+
+#back {
+  text-align: left;
+  font-family: "Indie Flower", cursive;
+  background-color: #a9f16c;
+  border: 1px solid #64aa2b;
+  border-radius: 5px;
+}
+
+#next {
+  text-align: right;
+  font-family: "Indie Flower", cursive;
+  background-color: #a9f16c;
+  border: 1px solid #64aa2b;
+  border-radius: 5px;
+}
+
+#month {
+  text-align: center;
+  margin: auto 0;
+}
+
+#year {
+  max-width: 55px;
+  font-size: 16px;
+  border: 1px solid #64aa2b;
+  border-radius: 5px;
+}
+
+#newEvent {
+  width: 33px;
+  font-size: 25px;
+  color: white;
+  background-color: #7373d9;
+  border: 1px solid #9e9ea8;
+  border-radius: 5px;
+}
+
+.selectedDay {
+  background-color: #707ed7;
+}
+
+.discription {
+  width: 309px;
+  max-height: 100px;
+  border: 3px solid #7373d9;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
